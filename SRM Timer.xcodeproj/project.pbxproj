@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794B9EBD19A6786900A12BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9EBC19A6786900A12BC0 /* AppDelegate.swift */; };
+		794B9EBF19A6786900A12BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9EBE19A6786900A12BC0 /* ViewController.swift */; };
+		794B9EC219A6786900A12BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794B9EC019A6786900A12BC0 /* Main.storyboard */; };
+		794B9EC419A6786900A12BC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794B9EC319A6786900A12BC0 /* Images.xcassets */; };
+		794B9ED019A6786900A12BC0 /* SRM_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9ECF19A6786900A12BC0 /* SRM_TimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794B9ECA19A6786900A12BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794B9EAF19A6786900A12BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794B9EB619A6786900A12BC0;
+			remoteInfo = "SRM Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794B9EB719A6786900A12BC0 /* SRM Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRM Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794B9EBB19A6786900A12BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794B9EBC19A6786900A12BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		794B9EBE19A6786900A12BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794B9EC119A6786900A12BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794B9EC319A6786900A12BC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		794B9EC919A6786900A12BC0 /* SRM TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SRM TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794B9ECE19A6786900A12BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794B9ECF19A6786900A12BC0 /* SRM_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRM_TimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794B9EB419A6786900A12BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794B9EC619A6786900A12BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794B9EAE19A6786900A12BC0 = {
+			isa = PBXGroup;
+			children = (
+				794B9EB919A6786900A12BC0 /* SRM Timer */,
+				794B9ECC19A6786900A12BC0 /* SRM TimerTests */,
+				794B9EB819A6786900A12BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794B9EB819A6786900A12BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794B9EB719A6786900A12BC0 /* SRM Timer.app */,
+				794B9EC919A6786900A12BC0 /* SRM TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794B9EB919A6786900A12BC0 /* SRM Timer */ = {
+			isa = PBXGroup;
+			children = (
+				794B9EBC19A6786900A12BC0 /* AppDelegate.swift */,
+				794B9EBE19A6786900A12BC0 /* ViewController.swift */,
+				794B9EC019A6786900A12BC0 /* Main.storyboard */,
+				794B9EC319A6786900A12BC0 /* Images.xcassets */,
+				794B9EBA19A6786900A12BC0 /* Supporting Files */,
+			);
+			path = "SRM Timer";
+			sourceTree = "<group>";
+		};
+		794B9EBA19A6786900A12BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794B9EBB19A6786900A12BC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		794B9ECC19A6786900A12BC0 /* SRM TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				794B9ECF19A6786900A12BC0 /* SRM_TimerTests.swift */,
+				794B9ECD19A6786900A12BC0 /* Supporting Files */,
+			);
+			path = "SRM TimerTests";
+			sourceTree = "<group>";
+		};
+		794B9ECD19A6786900A12BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				794B9ECE19A6786900A12BC0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794B9EB619A6786900A12BC0 /* SRM Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794B9ED319A6786900A12BC0 /* Build configuration list for PBXNativeTarget "SRM Timer" */;
+			buildPhases = (
+				794B9EB319A6786900A12BC0 /* Sources */,
+				794B9EB419A6786900A12BC0 /* Frameworks */,
+				794B9EB519A6786900A12BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SRM Timer";
+			productName = "SRM Timer";
+			productReference = 794B9EB719A6786900A12BC0 /* SRM Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794B9EC819A6786900A12BC0 /* SRM TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794B9ED619A6786900A12BC0 /* Build configuration list for PBXNativeTarget "SRM TimerTests" */;
+			buildPhases = (
+				794B9EC519A6786900A12BC0 /* Sources */,
+				794B9EC619A6786900A12BC0 /* Frameworks */,
+				794B9EC719A6786900A12BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794B9ECB19A6786900A12BC0 /* PBXTargetDependency */,
+			);
+			name = "SRM TimerTests";
+			productName = "SRM TimerTests";
+			productReference = 794B9EC919A6786900A12BC0 /* SRM TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794B9EAF19A6786900A12BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alexandru Rosianu";
+				TargetAttributes = {
+					794B9EB619A6786900A12BC0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					794B9EC819A6786900A12BC0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 794B9EB619A6786900A12BC0;
+					};
+				};
+			};
+			buildConfigurationList = 794B9EB219A6786900A12BC0 /* Build configuration list for PBXProject "SRM Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794B9EAE19A6786900A12BC0;
+			productRefGroup = 794B9EB819A6786900A12BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794B9EB619A6786900A12BC0 /* SRM Timer */,
+				794B9EC819A6786900A12BC0 /* SRM TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794B9EB519A6786900A12BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794B9EC219A6786900A12BC0 /* Main.storyboard in Resources */,
+				794B9EC419A6786900A12BC0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794B9EC719A6786900A12BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794B9EB319A6786900A12BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794B9EBF19A6786900A12BC0 /* ViewController.swift in Sources */,
+				794B9EBD19A6786900A12BC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794B9EC519A6786900A12BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794B9ED019A6786900A12BC0 /* SRM_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794B9ECB19A6786900A12BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794B9EB619A6786900A12BC0 /* SRM Timer */;
+			targetProxy = 794B9ECA19A6786900A12BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794B9EC019A6786900A12BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794B9EC119A6786900A12BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794B9ED119A6786900A12BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794B9ED219A6786900A12BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794B9ED419A6786900A12BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "SRM Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		794B9ED519A6786900A12BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "SRM Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		794B9ED719A6786900A12BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SRM TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRM Timer.app/SRM Timer";
+			};
+			name = Debug;
+		};
+		794B9ED819A6786900A12BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SRM TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRM Timer.app/SRM Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794B9EB219A6786900A12BC0 /* Build configuration list for PBXProject "SRM Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794B9ED119A6786900A12BC0 /* Debug */,
+				794B9ED219A6786900A12BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794B9ED319A6786900A12BC0 /* Build configuration list for PBXNativeTarget "SRM Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794B9ED419A6786900A12BC0 /* Debug */,
+				794B9ED519A6786900A12BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		794B9ED619A6786900A12BC0 /* Build configuration list for PBXNativeTarget "SRM TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794B9ED719A6786900A12BC0 /* Debug */,
+				794B9ED819A6786900A12BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794B9EAF19A6786900A12BC0 /* Project object */;
+}
