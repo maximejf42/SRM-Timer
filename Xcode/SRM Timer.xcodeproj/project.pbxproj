@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791D360119A908EC00C07AC5 /* CustomIOS7AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D360019A908EC00C07AC5 /* CustomIOS7AlertView.swift */; };
+		794206E519A896C400A17729 /* division1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794206E319A896C400A17729 /* division1@2x.png */; };
+		794206E619A896C400A17729 /* division2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 794206E419A896C400A17729 /* division2@2x.png */; };
 		794B9EBD19A6786900A12BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9EBC19A6786900A12BC0 /* AppDelegate.swift */; };
 		794B9EBF19A6786900A12BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9EBE19A6786900A12BC0 /* ViewController.swift */; };
 		794B9EC219A6786900A12BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794B9EC019A6786900A12BC0 /* Main.storyboard */; };
 		794B9EC419A6786900A12BC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794B9EC319A6786900A12BC0 /* Images.xcassets */; };
 		794B9ED019A6786900A12BC0 /* SRM_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B9ECF19A6786900A12BC0 /* SRM_TimerTests.swift */; };
+		79909B7919A76579002EA1B4 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79909B7819A76579002EA1B4 /* startButton.png */; };
+		79F4A3CE19A7A56600A3F540 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F4A3CC19A7A56600A3F540 /* pauseButton.png */; };
+		79F4A3CF19A7A56600A3F540 /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F4A3CD19A7A56600A3F540 /* stopButton.png */; };
+		79F4A3D119A7C12400A3F540 /* resumeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F4A3D019A7C12400A3F540 /* resumeButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791D360019A908EC00C07AC5 /* CustomIOS7AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIOS7AlertView.swift; sourceTree = "<group>"; };
+		794206E319A896C400A17729 /* division1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "division1@2x.png"; sourceTree = "<group>"; };
+		794206E419A896C400A17729 /* division2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "division2@2x.png"; sourceTree = "<group>"; };
 		794B9EB719A6786900A12BC0 /* SRM Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRM Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794B9EBB19A6786900A12BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794B9EBC19A6786900A12BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +44,10 @@
 		794B9EC919A6786900A12BC0 /* SRM TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SRM TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794B9ECE19A6786900A12BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794B9ECF19A6786900A12BC0 /* SRM_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRM_TimerTests.swift; sourceTree = "<group>"; };
+		79909B7819A76579002EA1B4 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		79F4A3CC19A7A56600A3F540 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		79F4A3CD19A7A56600A3F540 /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		79F4A3D019A7C12400A3F540 /* resumeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resumeButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,7 @@
 		794B9EB919A6786900A12BC0 /* SRM Timer */ = {
 			isa = PBXGroup;
 			children = (
+				791D360019A908EC00C07AC5 /* CustomIOS7AlertView.swift */,
 				794B9EBC19A6786900A12BC0 /* AppDelegate.swift */,
 				794B9EBE19A6786900A12BC0 /* ViewController.swift */,
 				794B9EC019A6786900A12BC0 /* Main.storyboard */,
@@ -87,6 +102,12 @@
 		794B9EBA19A6786900A12BC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				794206E319A896C400A17729 /* division1@2x.png */,
+				794206E419A896C400A17729 /* division2@2x.png */,
+				79F4A3D019A7C12400A3F540 /* resumeButton.png */,
+				79F4A3CC19A7A56600A3F540 /* pauseButton.png */,
+				79F4A3CD19A7A56600A3F540 /* stopButton.png */,
+				79909B7819A76579002EA1B4 /* startButton.png */,
 				794B9EBB19A6786900A12BC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,8 +210,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F4A3D119A7C12400A3F540 /* resumeButton.png in Resources */,
+				794206E519A896C400A17729 /* division1@2x.png in Resources */,
+				79F4A3CE19A7A56600A3F540 /* pauseButton.png in Resources */,
 				794B9EC219A6786900A12BC0 /* Main.storyboard in Resources */,
+				794206E619A896C400A17729 /* division2@2x.png in Resources */,
 				794B9EC419A6786900A12BC0 /* Images.xcassets in Resources */,
+				79909B7919A76579002EA1B4 /* startButton.png in Resources */,
+				79F4A3CF19A7A56600A3F540 /* stopButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791D360119A908EC00C07AC5 /* CustomIOS7AlertView.swift in Sources */,
 				794B9EBF19A6786900A12BC0 /* ViewController.swift in Sources */,
 				794B9EBD19A6786900A12BC0 /* AppDelegate.swift in Sources */,
 			);
@@ -327,9 +355,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SRM Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,9 +370,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "SRM Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +432,7 @@
 				794B9ED519A6786900A12BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794B9ED619A6786900A12BC0 /* Build configuration list for PBXNativeTarget "SRM TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +441,7 @@
 				794B9ED819A6786900A12BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
